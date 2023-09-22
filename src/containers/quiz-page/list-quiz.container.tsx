@@ -22,7 +22,7 @@ export const ListQuizPageContainer = () => {
             setShowQuizForm(true);
         }
         return (
-            <Button onClick={createNewQuiz}>Create new quiz</Button>
+            <Button variant={'contained'} sx={{mb: 3}} onClick={createNewQuiz}>Create new quiz</Button>
         )
     }
     const renderQuizzes = () => {
